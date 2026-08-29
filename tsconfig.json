@@ -1,4 +1,3 @@
-"noImplicitAny": false
 {
   "files": [],
   "references": [
@@ -6,8 +5,9 @@
     { "path": "./tsconfig.node.json" }
   ],
   "compilerOptions": {
+    "noImplicitAny": false,
     "paths": {
-      "@/convex/*": ["./convex/*"],
+      "@convex/*": ["./convex/*"],
       "@/*": ["./src/*"]
     }
   }
